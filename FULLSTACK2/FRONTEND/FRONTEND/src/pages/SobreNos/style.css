@@ -1,0 +1,84 @@
+/* ======== Servicos/style.css ======== */
+
+.servicos {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 32px 24px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(16, 24, 40, 0.06);
+}
+
+.servicos h1 {
+  font-size: 2rem;
+  color: #4f46e5;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.servicos h2 {
+  font-size: 1.5rem;
+  color: #2563eb;
+  margin-top: 24px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.servicos p,
+.servicos div {
+  font-size: 1rem;
+  color: #334155;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+/* Destaques de ícones e emojis nos títulos */
+.servicos h2::before {
+  margin-right: 6px;
+}
+
+/* Último parágrafo (div) mais destacado */
+.servicos div {
+  margin-top: 24px;
+  font-weight: 600;
+  color: #1e3a8a;
+  text-align: center;
+}
+
+/* ======== Responsividade ======== */
+@media (max-width: 1024px) {
+  .servicos {
+    padding: 28px 20px;
+  }
+
+  .servicos h1 {
+    font-size: 1.8rem;
+  }
+
+  .servicos h2 {
+    font-size: 1.35rem;
+  }
+
+  .servicos p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .servicos {
+    padding: 24px 16px;
+  }
+
+  .servicos h1 {
+    font-size: 1.6rem;
+  }
+
+  .servicos h2 {
+    font-size: 1.2rem;
+  }
+
+  .servicos p {
+    font-size: 0.9rem;
+  }
+}

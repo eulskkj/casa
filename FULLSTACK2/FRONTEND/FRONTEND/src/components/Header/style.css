@@ -1,0 +1,69 @@
+/* ======== Header/style.css ======== */
+
+.header {
+  background: linear-gradient(90deg, #2563eb, #1e40af);
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* ======== Logo ======== */
+.logo {
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.logo:hover {
+  color: #e0e7ff;
+  transform: scale(1.05);
+}
+
+/* ======== Navegação ======== */
+nav {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+nav a {
+  color: #e0e7ff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+  font-size: 1rem;
+}
+
+nav a:hover {
+  color: #ffffff;
+  transform: translateY(-1px);
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+/* ======== Responsividade ======== */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 10px;
+  }
+
+  .logo {
+    font-size: 1.4rem;
+  }
+}

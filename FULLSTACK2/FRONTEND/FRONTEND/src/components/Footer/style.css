@@ -1,0 +1,26 @@
+/* ======== Footer/style.css ======== */
+
+.footer {
+  background: #1e40af; /* Azul escuro combinando com o header */
+  color: #e0e7ff;      /* Texto claro */
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.95rem;
+  font-weight: 500;
+  box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.1);
+  margin-top: auto; /* sempre empurrar para o final da página */
+  position: relative;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer a:hover {
+  color: #f3f4f6;
+}
