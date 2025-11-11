@@ -1,0 +1,70 @@
+.cadastro-produto-container {
+  max-width: 450px;
+  margin: 50px auto;
+  background: #ffffff;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins', sans-serif;
+}
+
+.cadastro-produto-container h2 {
+  text-align: center;
+  color: #007b5e;
+  margin-bottom: 25px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #333;
+}
+
+.form-group input {
+  padding: 10px;
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+.form-group input:focus {
+  border-color: #007b5e;
+  box-shadow: 0 0 0 2px rgba(0, 123, 94, 0.2);
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #007b5e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #009f74;
+}
+
+button[disabled] {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
+.error-message {
+  color: #e74c3c;
+  font-size: 13px;
+  margin-top: -8px;
+  margin-bottom: 10px;
+}
