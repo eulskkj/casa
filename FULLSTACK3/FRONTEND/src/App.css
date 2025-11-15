@@ -1,0 +1,146 @@
+/* Fundo geral estilo Samsung (muito clean) */
+/* Removendo bordas leves do card e deixando apenas nos comentários */
+
+body {
+  background: #000000;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container principal sem borda */
+.cadrasto-mensagem-container {
+  width: 90%;
+  max-width: 700px;
+  background: #000000;
+  padding: 35px;
+  border-radius: 14px;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.08);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  transition: 0.3s ease;
+}
+
+.cadrasto-mensagem-container:hover {
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+}
+
+/* Títulos estilo Samsung */
+h2 {
+  color: #1428A0; /* Azul Samsung */
+  margin-bottom: 15px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Grupo do formulário */
+.form-group {
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-group label {
+  font-weight: 600;
+  color: #1428A0;
+  display: block;
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #d9d9d9;
+  background: #f5f5f5;
+  color: #000000;
+
+  outline: none;
+  font-size: 15px;
+  transition: 0.25s;
+}
+
+.form-group input:focus {
+  border-color: #1428A0;
+  background: #ffffff;
+  box-shadow: 0 0 8px rgba(20, 40, 160, 0.25);
+}
+
+/* Mensagens de erro */
+.error-message {
+  color: #d40000;
+  font-size: 14px;
+  margin-top: -10px;
+  margin-bottom: 15px;
+}
+
+/* Botão principal estilo Samsung */
+button[type="submit"] {
+  background: #1428A0;
+  color: white;
+  padding: 14px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  transition: 0.25s ease;
+}
+
+button[type="submit"]:hover {
+  background: #0d1e7a;
+}
+
+button[disabled] {
+  background: #8ea1e6;
+  cursor: not-allowed;
+}
+
+/* Lista de comentários */
+.lista-comentarios {
+  width: 100%;
+  margin-top: 25px;
+}
+
+/* Comentários COM borda */
+.comentario {
+  background: #000000;
+  border: 1px solid #3b3b3b; /* Borda mais elegante pro dark */
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+.comentario strong {
+  color: #1428A0;
+  font-size: 16px;
+}
+
+/* Botão de curtida */
+.comentario button {
+  margin-top: 10px;
+  background: #1428A0;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.comentario button:hover {
+  background: #0d1e7a;
+}
